@@ -1,125 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
+DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tea Recipe</title>
+    <!-- add the font awesome link here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> 
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>How to make Tea</h1>
+				<img src="https://codeinstitute.s3-eu-west-1.amazonaws.com/5DCC/images/Content/oSVKMED.jpg" alt="A man drinking tea">
+	
+				<p>At the very least, tea is a flavourful way of getting enough fluid into your body each day.
+	        On top of that, studies have shown teas can help protect your teeth and your heart</p>
+	
+			</header>
+			
+			<section id = "ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+				<!-- add a fontawesome icon here -->
+				<h2>ingredients <i id="ingredients" class="fa fa-coffee" aria-hidden="true"></i></h2>
+				<ul>
+					<li>Tea Bag</li>
+					<li>Water</li>
+					<li>Milk - Dairy/Plant based(Optional)</li>
+					<li>Sugar/Honey (Optional)</li>
+				</ul>
+			</section>
+			
+			<section id = "preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()">
+				<!-- add a fontawesome icon here -->
+				<h2>preparation <i id="preparation" class="fa fa-check-circle" aria-hidden="true"></i></h2>
+				<ol>
+					<li>
+	                Run the tap a little so the water's nicely aerated, and only boil it once to keep the oxygen level up. Oxygen in water helps flavour!
+					</li>
+					<li>
+						Pop a tea bag into your mug (<em>always</em> a big mug)
+					</li>
+					<li>
+						Pour the hot water over the tea bag and stir briefly.
+					</li>
+					<li>
+						Tea needs time to unlock all its flavour, so give it 3-4 minutes to do its thing. This is a perfect time to grab a sneaky cookie or daydream about vacations.
+					</li>
+					<li>
+						Before removing the tea bag, gently squish it with a spoon against the side of the mug. Not too much or you'll make it bitter.
+					</li>
+					<li>
+						If you want, throw in some milk or sugar or honey or nothing else at all.
+					</li>
+					<li>
+						Enjoy!
+					</li>
+				</ol>
+			</section>
+			
+			<footer>
+				<p>Copyright Me 2020</p>
+			</footer>
+		</div>
+		<script>
+        
+        function ingredientsHover(){
+            document.getElementById("ingredients").style.fontSize = "300%";
+        }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="description" content="CA106 Group 2 Project" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Games · Group 2</title>
-  <link rel="stylesheet" href="css/layout.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/f10b50bc14.js" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-  <script>
-    particlesJS.load('particles-js', 'scripts/particles.json')
-  </script>
-  <script src="scripts/scroll.js"></script>
-  <script src="scripts/animate.js"></script>
-</head>
+        function ingredientsNormal(){
+            document.getElementById("ingredients").style.fontSize = "100%";
+        }
 
-<body>
-  <main>
-    <header>
-      <div class="header-content">
-        <nav class="header-nav">
-          <ul>
-            <li><a id="logo" href="index.html">GAMES · GROUP 2</a></li>
-            <li><a href="../sections/alexandru/index.html">Alexandru</a></li>
-            <li><a href="../sections/andrew/index.html">Andrew</a></li>
-            <li><a href="../sections/james/index.html">James</a></li>
-            <li><a href="../sections/jed/index.html">Jed</a></li>
-            <li><a href="../sections/liam/index.html">Liam</a></li>
-            <li><a href="../sections/noah/index.html">Noah</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+        function preparationHover(){
+            document.getElementById("preparation").style.fontSize = "300%";
+        }
 
-    <div class="container-content top">
-      <video class="main-splash" autoplay muted loop>
-        <source src="videos/splash.mp4" type="video/mp4">
-      </video>
-      <h1 class="title">🕹️ GAMES · GROUP 2 🎮 </h1>
-      <div class="splash">
-        <h2>Welcome</h2>
-        <p>
-          Welcome
-        </p>
-        <a href="#first"><button>LETS GET STARTED</button></a>
-      </div>
-    </div>
+        function preparationNormal(){
+            document.getElementById("preparation").style.fontSize = "100%";
+        }
 
-    <div id="first" class="container-content animate fade">
-      <img class="box-image animate align-left slide" src="images/gaming_industry.png" alt="picture" />
-      <div class="content">
-        <h2>Gaming Industry</h2>
-        <p>
-          A look at how the gaming industry has changed from CD based games to
-          games being available to stream from a central server!
-        </p>
-        <a href="../sections/james/index.html"><button>TAKE ME THERE</button></a>
-      </div>
-    </div>
-
-    <div class='divider'></div>
-
-    <div class="container-content flipped animate fade">
-      <img class="box-image animate align-right slide"
-        src="https://metro.co.uk/wp-content/uploads/2020/05/UnrealEngine_blog_a-first-look-at-unreal-engine-5_Unreal_Engine_5_Gallery_2-2491x1400-8a288c8c4645d4dd51ab4323aa86b1405ff66df5-8878.jpg?quality=90&strip=all"
-        alt="picture" />
-      <div class="content">
-        <h2>Game Development</h2>
-        <p>
-          Dive into the world of game development! Learn how the worlds most
-          popular games are brought to life: from a simple idea to a finished product!
-        </p>
-        <a href="../sections/jed/index.html"><button>TAKE ME THERE</button></a>
-      </div>
-    </div>
-
-    <div class='divider'></div>
-
-    <div class="container-content animate fade">
-      <img class="box-image animate align-left slide" src="images/genre.png" alt="picture" />
-      <div class="content">
-        <h2>Genres</h2>
-        <p> Take a look at all the different types of games that exist! </p>
-        <a href="../sections/liam/index.html"><button>TAKE ME THERE</button></a>
-      </div>
-    </div>
-    <section id="contact">
-      <div>
-        <h2>Contact Me</h2>
-        <div class="content">
-          <form action="https://formspree.io/f/mvovbgap" method="post">
-            <div class="text">
-              <p>Name</p>
-              <input class="text-box" id="contact-name" type="text" name="contact-name" placeholder="Name" />
-            </div>
-            <div class="text">
-              <p>Email</p>
-              <input class="text-box" id="contact-email" type="email" name="contact-email" placeholder="Email" />
-            </div>
-            <div class="text">
-              <p>Phone</p>
-              <input class="text-box" id="contact-phone" type="tel" name="contact-phone" placeholder="Phone number" />
-            </div>
-            <div class="text">
-              <p>Message</p>
-              <textarea class="text-box" id="contact-message" name="contact-message" rows="5"
-                placeholder="Message"></textarea>
-            </div>
-            <div>
-              <input class="button" type="submit" value="Send my message" />
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
-  </main>
-</body>
-
+        </script>
+	</body>
 </html>
