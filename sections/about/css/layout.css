@@ -14,14 +14,14 @@ body {
   font-family: 'Lato', sans-serif;
   line-height: 1.5em;
   font-size: 16px;
-  color: rgb(12, 12, 12);
-  background-color: #f5f4f4;
+  color: rgb(24, 22, 22);
+  background-color: #f3ecec;
 }
 
 header {
   /* fixes header bar to top and stretches full width */
   z-index: 9;
-  background-color: rgba(192, 179, 135, 0.95);
+  background-color: rgba(22, 22, 22, 0.95);
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -39,7 +39,7 @@ header ul {
 header li a[href] {
   float: right; /* floats nav elements to right of header */
   display: block;
-  color: rgb(48, 139, 40);
+  color: rgb(201, 201, 201);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -58,7 +58,7 @@ header li a[href]:not(#logo):hover {
 header li a[id='logo'][href] {
   font-family: 'Raleway', sans-serif;
   float: left;
-  color: rgb(48, 139, 40);
+  color: white;
 }
 .container-content.top {
   background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
@@ -118,7 +118,7 @@ header li a[id='logo'][href] {
     rgba(255, 255, 255, 0),
     rgba(255, 255, 255, 0.75),
     rgba(255, 255, 255, 0)
-  )
+  );
 }
 
 .container-content {
@@ -257,6 +257,7 @@ footer {
 .animate.fade.active {
   opacity: 1;
 }
+
 @media screen and (max-width: 850px) {
   .container-content {
     flex-direction: column;
