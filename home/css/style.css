@@ -1,32 +1,52 @@
 /* Body */
 body {
-margin: 0;
-padding: 0;
-font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
   
   
 /* The Navigation Bar */ 
 .nav {
-background-color: white;
+    background-color: white;
 }
   
 .nav ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .nav li {
-float: right;
-color: black;
+    float: right;
+    color: black;
 }
 
 .nav a {
-display: block;
-color: black;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav a:hover {
+    background-color: #111;
+    color: white;
+}
+
+/* Main content */
+
+h2 {
+    font-size: 200%;
+}
+p {
+    font-size: 150%;
+}
+
+.grey-part {
+    background-color: rgb(198, 202, 206);
+    text-align: right;
 }
