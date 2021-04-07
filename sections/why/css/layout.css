@@ -1,0 +1,161 @@
+/* BODY SECTION*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+  
+/* NAVIGATION BAR SECTION*/ 
+.nav {
+    background-color: black;
+    font-size: 120%;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav li {
+    float: right;
+    color: white;
+}
+
+.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav a:hover {
+    background-color: rgb(202, 158, 158); /* LIGHT PINK ON HOVER */
+    color: black;  /* BLACK TEXT ON HOVER */
+}
+
+
+/* HEADER SECTION */
+.header-title {
+    background-color: rgb(173, 87, 53);
+    padding: 10px;
+    text-align: center;
+    font-size: 150%;
+}
+
+/* MAIN CONTENT SECTION */
+.main-content {
+    font-size: 130%;
+}
+
+.main-content img {
+    margin-left: 80px;
+}
+
+.white-part {
+    background-color: white;
+    color: black;
+    padding: 80px;
+    text-align: center;
+}
+
+.grey-part {
+    background-color: rgb(198, 202, 206);  /* GREY BACKGROUND COLOUR */
+    padding: 50px;
+}
+
+.grey-text {
+    width: 600px;
+    float: right;
+    clear: right;
+    margin-right: 100px;
+}
+
+/* DOWNLOAD PROMPT SECTION */
+.download-prompt {
+    text-align: center;
+    padding: 20px;
+    font-size: 130%;
+    margin-bottom: 50px;
+}
+
+.download-prompt ul {
+    list-style-type: circle;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.download-prompt a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.download-prompt a:hover {
+    color: rgb(219, 130, 130);  /* LIGHT PINK TEXT ON HOVER */
+}
+
+/* EXTRA INFO SECTION */
+.extra-info {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 140%;
+}
+
+.social-media {
+    text-align: left;
+    float: left;
+    position: relative;
+    margin-top: 50px;
+}
+
+
+/* CONTACT SECTION */
+.contact {
+    float: left;
+    position: relative;
+    margin-left: 250px;
+    margin-top: 100px;
+    padding: 0px 100px 0 100px;
+    border-left: solid white;
+    border-right: solid white;
+}
+
+.contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+/* BOTTOM NAV BAR */
+.lesser-nav {
+    text-align: right;
+    margin-right: 100px;
+}
+
+.lesser-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.lesser-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.lesser-nav a:hover {
+    color: rgb(219, 130, 130);  /* LIGHT PINK TEXT ON HOVER */
+}
