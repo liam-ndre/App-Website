@@ -42,7 +42,7 @@ body {
     font-size: 150%;
 }
 .title {
-    background-color: pink;
+    background-color: rgb(173, 87, 53);
     font-size: 150%;
     padding: 10px;
     text-align: center;
@@ -62,8 +62,22 @@ body {
     font-size: 150%;
 }
 
-.white-part {
+.main-title {
+    text-align: center;
+    font-size: 150%;
+}
 
+.white-part {
+    padding: 20px;
+}
+
+.white-text{
+    float: right;
+    clear: right;
+    width: 50%;
+    text-align: center;
+    margin-right: 60px;
+    margin-top: 150px;
 }
 
 .grey-part {
@@ -71,8 +85,14 @@ body {
     padding: 20px;
 }
 
-
-
+.grey-text {
+    float: left;
+    clear: left;
+    width: 50%;
+    text-align: center;
+    margin-right: 60px;
+    margin-top: 150px;
+}
 
 
 /* EXTRA INFO SECTION */
@@ -89,6 +109,7 @@ body {
     position: relative;
     margin-top: 50px;
 }
+
 
 /* CONTACT SECTION */
 .contact {
