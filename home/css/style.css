@@ -44,18 +44,27 @@ body {
     background-image: url("../images/ecoboi-header.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 175px;
+    padding: 165px;
     border-bottom: solid black 60px;
 }
 
+/* .header img {
+    margin-left: 600px;
+} */
+
 .header-content {
     font-size: 120%;
-    margin-left: 500px;
+    margin-left: 540px;
+    margin-top: -30px;
     text-align: center;
-    padding: 5px;
-    width: 400px;
-    background-color: rgba(255, 255, 255, 0.623);
-    border-radius: 15px;
+    padding: 10px;
+    width: 35%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.download-list {
+    margin-right: 35px;
 }
 
 .download-list ul {
@@ -66,10 +75,10 @@ body {
 }
 
 .download-list li {
-    background-color: black;
     color: white;
     border-radius: 10px;
     padding: 10px;
+    float: right;
 }
 
 .download-list a {
