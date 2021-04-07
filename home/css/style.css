@@ -1,4 +1,5 @@
-/* Body */
+
+/* BODY SECTION*/
 body {
     margin: 0;
     padding: 0;
@@ -6,9 +7,10 @@ body {
 }
   
   
-/* The Navigation Bar */ 
+/* NAVIGATION BAR SECTION*/ 
 .nav {
-    background-color: white;
+    background-color: black;
+    font-size: 120%;
 }
   
 .nav ul {
@@ -20,33 +22,110 @@ body {
 
 .nav li {
     float: right;
-    color: black;
+    color: white;
 }
 
 .nav a {
     display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-.nav a:hover {
-    background-color: #111;
     color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
 }
 
-/* Main content */
-
-h2 {
-    font-size: 200%;
+.nav a:hover {
+    background-color: rgb(202, 158, 158); /* LIGHT PINK ON HOVER */
+    color: black;  /* BLACK TEXT ON HOVER */
 }
-p {
-    font-size: 150%;
+
+
+/* HEADER SECTION */
+.header {
+    background-image: url("../images/ecoboi-header.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 175px;
+    border-bottom: solid black 60px;
+}
+
+.header-content {
+    font-size: 120%;
+    margin-left: 500px;
+    text-align: center;
+    padding: 5px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 15px;
+}
+
+.download-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.download-list li {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.download-list a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.download-list a:hover {
+    color: rgb(226, 134, 149);
+}
+
+
+/* MAIN CONTENT SECTION*/
+.main-content {
+    font-size: 170%;
+    text-align: center;
+}
+
+.white-part {
+    background-color: white;
+    color: black;
+    padding: 80px;
+}
+
+.white-part, .grey-part {
+    padding: 40px;
+}
+
+.white-text {
+    width: 600px;
+    float: left;
+    clear: left;
+    margin-left: 50px;
+
 }
 
 .grey-part {
-    background-color: rgb(198, 202, 206);
-    text-align: right;
+    background-color: rgb(198, 202, 206);  /* GREY BACKGROUND COLOUR */
+}
+
+.grey-text {
+    width: 600px;
+    float: right;
+    clear: right;
+    margin-right: 100px;
+}
+
+
+/* EXTRA INFO SECTION */
+.extra-info {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.social-media {
+    text-align: left;
 }
