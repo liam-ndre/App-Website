@@ -79,7 +79,7 @@ body {
     text-align: center;
     padding: 20px;
     font-size: 130%;
-    margin-bottom: 50px;
+
 }
 
 .download-prompt ul {
@@ -93,7 +93,7 @@ body {
     background-color: black;
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     border-radius: 15px;
 }
 
