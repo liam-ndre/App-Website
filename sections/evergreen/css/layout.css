@@ -1,4 +1,4 @@
-/* Body */
+/* BODY SECTION*/
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +6,10 @@ body {
 }
 
 
-/* The Navigation Bar */ 
+/* NAVIGATION BAR SECTION*/ 
 .nav {
-  background-color: white;
+  background-color: black;
+  font-size: 120%;
 }
 
 .nav ul {
@@ -20,32 +21,28 @@ body {
 
 .nav li {
   float: right;
-  color: black;
+  color: white;
 }
 
 .nav a {
   display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-.nav a:hover {
-  background-color: #111;
   color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
 }
 
-/* Header */
+.nav a:hover {
+  background-color: rgb(202, 158, 158); /* LIGHT PINK ON HOVER */
+  color: black;  /* BLACK TEXT ON HOVER */
+}
+
+
+/* HEADER SECTION */
 .header-title {
-    background-color: black;
-    color:white;
-    text-align: center;
-    padding: 50px;
-}
-
-.header-title h1 {
-    font-size: 270%;
+  background-color: rgb(173, 87, 53);
+  font-size: 150%;
+  padding: 10px;
+  text-align: center;
 }
 
