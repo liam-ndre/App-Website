@@ -41,8 +41,140 @@ body {
 /* HEADER SECTION */
 .header-title {
   background-color: rgb(173, 87, 53);
-  font-size: 150%;
   padding: 10px;
+  text-align: center;
+  font-size: 150%;
+}
+
+.header-text {
+  font-size: 120%;
+  padding: 20px;
   text-align: center;
 }
 
+
+/* MAIN CONTENT SECTION */
+.main-content {
+  padding-top: 20px;
+  font-size: 150%;
+  text-align: center;
+}
+
+.main-content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+/* GREENBOI SECTION */
+.boi {
+  border: solid black;
+  border-radius: 15px;
+  float: left;
+  clear: left;
+  width: auto;
+  padding: 20px;
+  margin-left: 80px;
+}
+
+
+/* GREENCHAD SECTION */
+.chad {
+  border: solid black;
+  border-radius: 15px;
+  float: right;
+  clear: right;
+  width: auto;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.chad-exclusive {
+  color: rgb(126, 50, 50);
+}
+
+
+/* BUY PROMPT SECTION */
+.pliz-buy {
+  padding: 20px 20px 80px 20px;
+  margin-top: 800px;
+  text-align: center;
+  font-size: 150%;
+}
+
+.pliz-buy a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  width: auto;
+}
+  
+.pliz-buy a:hover {
+  color: rgb(219, 130, 130);  /* LIGHT PINK TEXT ON HOVER */
+}
+
+
+
+/* EXTRA INFO SECTION */
+.extra-info {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 140%;
+}
+
+.social-media {
+  text-align: left;
+  float: left;
+  position: relative;
+  margin-top: 50px;
+}
+
+
+/* CONTACT SECTION */
+.contact {
+  float: left;
+  position: relative;
+  margin-left: 250px;
+  margin-top: 100px;
+  padding: 0px 100px 0 100px;
+  border-left: solid white;
+  border-right: solid white;
+}
+
+.contact ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+/* BOTTOM NAV BAR */
+.lesser-nav {
+  text-align: right;
+  margin-right: 100px;
+}
+
+.lesser-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.lesser-nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.lesser-nav a:hover {
+  color: rgb(219, 130, 130);  /* LIGHT PINK TEXT ON HOVER */
+}
