@@ -156,7 +156,7 @@ body {
   text-align: center;
 }
 .download-list {
-  width: 20%;
+  width: auto;
   margin-left: 580px;
   padding-bottom: 50px;
 }
