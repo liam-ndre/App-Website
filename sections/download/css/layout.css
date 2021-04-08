@@ -156,8 +156,6 @@ body {
   text-align: center;
 }
 .download-list {
-  width: auto;
-  margin-left: 580px;
   padding-bottom: 50px;
 }
 
@@ -168,23 +166,19 @@ body {
   overflow: hidden;
 }
 
-.download-list li {
+.download-list a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
   background-color: black;
   color: white;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 15px;
+  width: auto;
 }
-
-.download-list a {
-  text-decoration: none;
-  color: white;
-  padding: 20px;
-}
-
+  
 .download-list a:hover {
-  color: rgb(226, 134, 149); /* LIGHT PINK ON HOVER */
+  color: rgb(219, 130, 130);  /* LIGHT PINK TEXT ON HOVER */
 }
-
 
 /* EXTRA INFO SECTION */
 .extra-info {
