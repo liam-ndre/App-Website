@@ -40,33 +40,16 @@ body {
 
 
 /* HEADER SECTION */
-/* .header {
-    background-image: url("../images/ecoboi-header.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-    background-position: fixed;
-    text-align: center;
-    padding-top: 10%;
-    padding-bottom: 3.9%;
-} */
-
-
 .header-content {
     text-align: center;
     font-size: 120%;
-    margin-top: 10%;
+    margin-top: 50%;
     margin-left: 50%;
     padding: 30px;
     width: 20%;
     background-color: rgba(255, 255, 255, 0.5); /* TRANSPARENT WHITE BACKGROUND */
     border-radius: 10px;
     position: absolute;
-}
-
-.header-image img{
-    padding: 0;
-    margin: 0;
 }
 
 .download-list a {
