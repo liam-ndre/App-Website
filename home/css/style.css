@@ -40,41 +40,38 @@ body {
 
 
 /* HEADER SECTION */
-.header {
+/* .header {
     background-image: url("../images/ecoboi-header.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    border-bottom: solid black 60px;
-    padding: 150px;
-}
+    background-attachment: fixed;
+    background-position: fixed;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 3.9%;
+} */
+
 
 .header-content {
+    text-align: center;
     font-size: 120%;
-    position: relative;
+    margin-top: 10%;
     margin-left: 50%;
-
-    padding: 20px;
+    padding: 30px;
     width: 20%;
     background-color: rgba(255, 255, 255, 0.5); /* TRANSPARENT WHITE BACKGROUND */
     border-radius: 10px;
-    text-align: center;
+    position: absolute;
 }
 
-.download-list ul {
-    list-style-type: none;
-    margin: 0;
+.header-image img{
     padding: 0;
-    overflow: hidden;
-}
-
-.download-list li {
-    background-color: black;
-    color: white;
-    border-radius: 10px;
-    padding: 10px;
+    margin: 0;
 }
 
 .download-list a {
+    background-color: black;
+    border-radius: 15px;
     text-decoration: none;
     color: white;
     padding: 20px;
@@ -136,11 +133,9 @@ body {
 .contact {
     float: left;
     position: relative;
-    margin-left: 250px;
+    margin-left: 20%;
     margin-top: 100px;
-    padding: 0px 100px 0 100px;
-    border-left: solid white;
-    border-right: solid white;
+    padding: 2%;
 }
 
 .contact ul {
